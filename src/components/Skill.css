@@ -1,6 +1,10 @@
 .skill p{
     position: relative;
-    color: white;
-    margin-left: 70px;
+    color: #EDEDED;
     z-index: 11;
+}
+.skill{
+    width: 60px;
+    flex-wrap: wrap;
+    margin-left: 13.5%;
 }

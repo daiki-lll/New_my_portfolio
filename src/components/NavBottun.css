@@ -1,9 +1,13 @@
 div.navbottun{
-    padding: 5px 0;
+    padding:0;
 }
 .navbottun p{
     text-decoration: none;
-    color: #ffffff;
+    color: #EDEDED;
     font-size: 20px;
-    margin: 0 30px;
+    margin-left:20px;
+    transition: all .3s;
+}
+.navbottun p:active{
+    color: #DA0037;
 }

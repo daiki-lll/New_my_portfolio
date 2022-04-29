@@ -1,30 +1,30 @@
 .myname p.main{
     position: relative;
-    color: white;
+    color: #EDEDED;
     font-size: 48px;
 }
 .myname p.main::before{
     position: absolute;
     content: '';
-    top: 132px;
+    top: 100%;
     width: 140px;
     height: 3px;
-    background: #DFFF1A;
+    background: #DA0037;
 }
 .myname p.main::after{
     position: absolute;
     content: '';
-    top: 143px;
+    top: 111%;
     width: 110px;
     height: 3px;
-    background: #DFFF1A;
+    background: #DA0037;
 }
 p.sub{
-    padding-top: 20px;
+    margin-top: 1.5em;
     padding-left: 7px;
     width: 160px;
     font-size: 17px;
-    color: white;
+    color: #EDEDED;
 }
 .myname{
     width: 27px;

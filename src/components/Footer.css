@@ -1,13 +1,17 @@
 .footer{
-    margin-top: 500px;
+    position: relative;
+    margin-top: 200px;
     padding-top: 10px;
     padding-bottom: 5px;
-    border-top:solid 1px rgba(255, 255, 255, 0.418);
     width: 100%;
+    height: 30vh;
+    background: #DA0037;
     display: flex;
     justify-content: center;
+    z-index: 20;
 }
 .footer a{
-    color: white;
-    margin: 0 5px;
+    color:#171717;
+    margin: 20px 10px;
+    text-decoration: none;
 }

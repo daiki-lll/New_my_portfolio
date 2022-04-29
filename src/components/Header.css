@@ -1,13 +1,13 @@
 .header h1{
-    color: #DFFF1A;
+    color: #EDEDED;
     letter-spacing:1.5px;
 }
 h1.sub{
-    color: black;
+    color: #171717;
     z-index: 10;
 }
 div.header{
     display: flex;
-    padding-top: 250px;
-    padding-left: 56px;
+    padding-top: 45%;
+    padding-left: 12.5%;
 }

@@ -9,15 +9,15 @@
 
 }
 .scloll{
-    padding-bottom: 74%;
-    padding-left: 40%;
+    padding-bottom: 45%;
+    padding-left: 10%;
     width: 90px;
     height: 10px;
     transform: rotate(90deg);
 }
 .scloll span{
     position: relative;
-    color: white;
+    color: #EDEDED;
 }
 .scloll span::before{
     content: "";
@@ -25,6 +25,6 @@
     top: 20px;
     width: 70px;
     height: 3px;
-    background: white;
+    background: #EDEDED;
     animation: scroll 2s ease infinite;
 }
