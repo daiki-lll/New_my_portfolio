@@ -1,0 +1,13 @@
+.header h1{
+    color: #DFFF1A;
+    letter-spacing:1.5px;
+}
+h1.sub{
+    color: black;
+    z-index: 10;
+}
+div.header{
+    display: flex;
+    padding-top: 250px;
+    padding-left: 56px;
+}

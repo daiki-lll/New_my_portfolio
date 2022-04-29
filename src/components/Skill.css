@@ -1,0 +1,6 @@
+.skill p{
+    position: relative;
+    color: white;
+    margin-left: 70px;
+    z-index: 11;
+}

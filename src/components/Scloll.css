@@ -1,0 +1,30 @@
+@keyframes scroll {
+    0%{
+        transform: translateX(-40px);
+    }
+    100%{
+        transform: translateX(10px);
+        opacity: 0;
+    }
+
+}
+.scloll{
+    padding-bottom: 74%;
+    padding-left: 40%;
+    width: 90px;
+    height: 10px;
+    transform: rotate(90deg);
+}
+.scloll span{
+    position: relative;
+    color: white;
+}
+.scloll span::before{
+    content: "";
+    position: absolute;
+    top: 20px;
+    width: 70px;
+    height: 3px;
+    background: white;
+    animation: scroll 2s ease infinite;
+}

@@ -1,0 +1,13 @@
+.footer{
+    margin-top: 500px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-top:solid 1px rgba(255, 255, 255, 0.418);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer a{
+    color: white;
+    margin: 0 5px;
+}

@@ -1,0 +1,9 @@
+div.navbottun{
+    padding: 5px 0;
+}
+.navbottun a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 30px;
+}

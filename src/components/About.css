@@ -1,0 +1,18 @@
+.aboutme{
+    margin-left: 60px;
+    width: 190px;
+    z-index: 10;
+}
+.aboutme img{
+    width: 165px;
+    height: 100px;
+    object-fit: cover;
+    z-index: 15;
+}
+.aboutme p{
+    position: relative;
+    padding-top: 40px;
+    font-size: 14px;
+    color: white;
+    z-index: 10;
+}

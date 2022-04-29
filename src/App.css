@@ -1,0 +1,20 @@
+.App{
+  width: 100%;
+  background: #000000;
+}
+nav,.squea{
+  position: fixed;
+}
+nav{
+  top: 30px;
+  display: flex;
+  z-index: 999;
+}
+.squea{
+  top: 140px;
+  left: 243px;
+  width: 125px;
+  height: 530px;
+  background: #DFFF1A;
+  z-index: 1;
+}
