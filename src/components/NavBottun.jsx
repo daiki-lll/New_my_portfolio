@@ -4,9 +4,9 @@ import "./NavBottun.css";
 const NavBottun = (props) => {
   return (
       <div className='navbottun'>
-        <a href="">
+        <p>
           {props.name}
-        </a>
+        </p>
       </div>
   )
 }
