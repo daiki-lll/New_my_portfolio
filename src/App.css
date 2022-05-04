@@ -1,20 +1,17 @@
 .App{
   width: 100%;
-  background: #171717;
+  background: #000000;
 }
-nav,.squea{
-  position: fixed;
+body{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
 }
 nav{
+  position: fixed;
   top: 30px;
+  margin-left: 10%;
+  justify-content: space-between;
+  width: 150px;
   display: flex;
   z-index: 999;
-}
-.squea{
-  top: 14%;
-  left: 60.5%;
-  width: 125px;
-  height: 530px;
-  background: #444;
-  z-index: 1;
+
 }

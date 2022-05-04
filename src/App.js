@@ -20,7 +20,6 @@ function App() {
           name={"contact"}
         />
       </nav>
-      <div className="squea"></div>
       <Header 
         title={"PORTFOLIO"}
         subtitle={"SITE"}
@@ -35,9 +34,7 @@ function App() {
       <Subtitle
         subtitle={"About me"}
       />
-      <About
-        aboutText={"及川大暉（おいかわだいき） 岩手県在住 商業高校生       飽き性で新しい物好き"}
-      />
+      <About />
       <Subtitle
         subtitle={"Skill"}
       />

@@ -2,6 +2,7 @@
     position: relative;
     color: #EDEDED;
     font-size: 48px;
+    
 }
 .myname p.main::before{
     position: absolute;
@@ -9,7 +10,7 @@
     top: 100%;
     width: 140px;
     height: 3px;
-    background: #DA0037;
+    background: #ffffff;
 }
 .myname p.main::after{
     position: absolute;
@@ -17,17 +18,17 @@
     top: 111%;
     width: 110px;
     height: 3px;
-    background: #DA0037;
+    background: #ffffff;
 }
 p.sub{
     margin-top: 1.5em;
     padding-left: 7px;
-    width: 160px;
+    width: 200px;
     font-size: 17px;
     color: #EDEDED;
 }
 .myname{
-    width: 27px;
-    padding-top: 18%;
-    padding-left: 16%;
+    width: 200px;
+    padding-top: 40%;
+    padding-left: 10%;
 }

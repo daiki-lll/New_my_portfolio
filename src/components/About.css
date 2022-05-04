@@ -1,6 +1,6 @@
 .aboutme{
-    margin-left: 60px;
-    width: 190px;
+    margin: 0 auto;
+    width: 80%;
     z-index: 10;
 }
 .aboutme img{
@@ -11,8 +11,8 @@
 }
 .aboutme p{
     position: relative;
-    padding-top: 40px;
-    font-size: 14px;
+    padding-top: 10px;
+    font-size: 16px;
     color: #EDEDED;
     z-index: 10;
 }

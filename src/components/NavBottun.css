@@ -5,9 +5,8 @@ div.navbottun{
     text-decoration: none;
     color: #EDEDED;
     font-size: 20px;
-    margin-left:20px;
     transition: all .3s;
 }
 .navbottun p:active{
-    color: #DA0037;
+    color: #8b8d00;
 }
