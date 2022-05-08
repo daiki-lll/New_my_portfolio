@@ -3,10 +3,11 @@ div.navbottun{
 }
 .navbottun p{
     text-decoration: none;
+    width: 120px;
     color: #EDEDED;
     font-size: 20px;
     transition: all .3s;
 }
 .navbottun p:active{
-    color: #8b8d00;
+    color: #10646f;
 }

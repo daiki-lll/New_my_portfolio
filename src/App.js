@@ -2,34 +2,47 @@ import "./reset.css";
 import './App.css';
 import NavBottun from "./components/NavBottun";
 import Header from "./components/Header";
-import Myname from "./components/Myname";
+import Study from "./components/Study";
 import Scloll from "./components/Scloll";
 import Subtitle from "./components/Subtitle";
 import About from "./components/About";
 import Skill from "./components/Skill";
 import Footer from "./components/Footer";
+import Headimg from "./components/mick-50XwniKxiXI-unsplash.jpg"
+import Menuwrapper from "./components/Menuwrapper";
+import OpenBt from "./components/OpenBt";
 
 function App() {
   return (
     <div className='App'>
       <nav>
         <NavBottun 
-          name={"study"}
+          name={"oikawa daiki"}
         />
-        <NavBottun 
-          name={"contact"}
+        <OpenBt 
+          bottun={"menu"}
         />
       </nav>
+      <Menuwrapper />
+      <img className="headimg" src={Headimg} alt={""} /> 
+      
+      <div className='wbox'></div>
+
       <Header 
         title={"PORTFOLIO"}
-        subtitle={"SITE"}
-      />
-      <Myname
-        Myname={"Daiki Oikawa"}
-        index={"Commercial high school student"}
       />
       <Scloll
-        text={"scroll"}
+      />
+      <Subtitle
+        subtitle={"Study"}
+      />
+      <Study
+        stitle={"titletitletitletitle"}
+        index={"texttexttexttexttexttextetxttext"}
+      />
+            <Study
+        stitle={"titletitletitletitle"}
+        index={"texttexttexttexttexttextetxttext"}
       />
       <Subtitle
         subtitle={"About me"}
